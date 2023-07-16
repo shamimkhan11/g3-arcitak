@@ -148,6 +148,28 @@ main {
 
 }
 
+/* naw a jsdfhj */
+
+
+.sponcors {
+    text-align: center;
+
+}
+
+
+.sponcer-trr {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+
+.sponcer-trr img {
+    width: 165px;
+}
+
+
 /* mobail divash */
 @media screen and (max-width:576px) {
     header {
@@ -155,7 +177,9 @@ main {
     }
 
     nav,
-    .tims {
+    .tims,
+    .card-cd,
+    .sponcer-trr {
         flex-direction: column;
     }
 
@@ -163,7 +187,7 @@ main {
         grid-template-columns: 1fr;
     }
 
-    .tims-contant {
+    .tims-contant .card-cd {
         padding-right: 20px;
         padding-left: 20px;
     }
@@ -176,7 +200,10 @@ main {
         padding: 50px;
     }
 
-    nav {
+    nav,
+git 
+    .card-cd,
+    .sponcer-trr {
         flex-direction: column;
     }
 
