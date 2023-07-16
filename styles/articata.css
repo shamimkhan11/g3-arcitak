@@ -101,3 +101,40 @@ nav li a {
     }
 
 }
+
+/* main seaction  */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.tims {
+    display: flex;
+    align-items: center;
+}
+
+.tims-img-continer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.tims-contant {
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.tims-list {
+    font-size: 2.8rem;
+}
+
+.tims-list .con {
+    color: var(--dark-03, #727272);
+    font-weight: 500;
+}
+
+.tims-list .oii {
+    color: #FF900E;
+    font-weight: 700;
+
+}
