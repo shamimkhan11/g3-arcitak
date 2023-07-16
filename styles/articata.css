@@ -79,33 +79,12 @@ nav li a {
 
 /* responcive styles  */
 
-/* mobail divash */
-@media screen and (max-width:576px) {
-    header {
-        padding: 20px;
-    }
 
-    nav {
-        flex-direction: column;
-    }
-}
-
-/* tablect or mideyem divaisess */
-@media screen and(min-width:576px)and(max-width: 960px) {
-    header {
-        padding: 50px;
-    }
-
-    nav {
-        flex-direction: column;
-    }
-
-}
 
 /* main seaction  */
 main {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 80px auto;
 }
 
 .tims {
@@ -136,5 +115,38 @@ main {
 .tims-list .oii {
     color: #FF900E;
     font-weight: 700;
+
+}
+
+/* mobail divash */
+@media screen and (max-width:576px) {
+    header {
+        padding: 20px;
+    }
+
+    nav,
+    .tims {
+        flex-direction: column;
+    }
+
+    .tims-img-continer {
+        grid-template-columns: 1fr;
+    }
+
+    .tims-contant {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+/* tablect or mideyem divaisess */
+@media screen and(min-width:576px)and(max-width: 960px) {
+    header {
+        padding: 50px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
 
 }
